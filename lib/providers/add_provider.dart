@@ -16,6 +16,7 @@ class TaskNotifier extends StateNotifier<Map<String, dynamic>> {
   }
 
   void clearTasks() {
+
     state = {};
   }
 }
